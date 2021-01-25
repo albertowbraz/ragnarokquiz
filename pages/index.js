@@ -1,9 +1,11 @@
 import styled from 'styled-components'
-import db from '../db.json'; 
-import Widget from '../src/components/Widget';
+import db from '../db.json'
+import Widget from '../src/components/Widget'
 import QuizBackground from '../src/components/QuizBackground'
-import Footer from "../src/components/Footer";
-import GitHubCorner from "../src/components/GitHubCorner";
+import Footer from "../src/components/Footer"
+import GitHubCorner from "../src/components/GitHubCorner"
+
+
 
 
 export const QuizContainer = styled.div`
@@ -18,11 +20,14 @@ export const QuizContainer = styled.div`
 
 export default function Home() {
   return (
+
+    
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
         <Widget>
-
+          
           <Widget.Header>
+            
             <h1>Ragnarok</h1>
           </Widget.Header>
           <Widget.Content>
@@ -43,7 +48,7 @@ export default function Home() {
         </Widget>
         <Footer />      
      </QuizContainer>
-     <GitHubCorner projectUr="https://github.com/albertowbraz" />
+     <GitHubCorner projectUrl="https://github.com/albertowbraz" />
    </QuizBackground>
   )
 
