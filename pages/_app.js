@@ -32,7 +32,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-      <title>Ragnarok Quiz</title>
+      <title>Ragnarok Quiz Alura</title>
         <meta name="test" content="initial-scale=1.0, width=device-width" />
         
       </Head>
